@@ -4,8 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.*;
+import lombok.NoArgsConstructor;
 
-@Table(name = "billionaires")
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name = "users")
 @Entity
 @Data
 public class User {
